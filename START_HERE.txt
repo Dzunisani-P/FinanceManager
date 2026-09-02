@@ -1,0 +1,27 @@
+FINANCE DASHBOARD - EASY START
+==============================
+
+1. Keep all files in this folder together.
+2. Double-click "Finance Dashboard.exe".
+3. The launcher will automatically:
+   - check for Python 3.14;
+   - install the bundled Python Install Manager if needed;
+   - install Python 3.14 if needed;
+   - create a local .venv for this application;
+   - install/update packages from requirements.txt when requirements.txt changes;
+   - start the Streamlit dashboard.
+4. Your browser should open automatically to the dashboard.
+
+IMPORTANT
+---------
+- Internet access is normally required when Python packages need to be downloaded
+  from PyPI. The bundled Python Install Manager includes a Python 3.14 runtime.
+- Do not delete the .venv folder while the application is running.
+- Keep python-manager-26.3.msix next to the launcher so a new PC can be set up
+  without separately downloading the Python Install Manager.
+
+TROUBLESHOOTING
+---------------
+If startup fails, leave the console window open and read the error shown there.
+The launcher deliberately uses the application's own .venv rather than installing
+packages into the user's global Python installation.
